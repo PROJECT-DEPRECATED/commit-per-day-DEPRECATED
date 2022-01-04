@@ -13,3 +13,6 @@
 
 ## 1/3/2022
 - the third day!
+
+## 1/4/2022
+- Hello! I'm commiting this message!
