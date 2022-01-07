@@ -22,3 +22,6 @@
 
 ## 1/6/2022
 - Hola! I'm commiting message!
+
+## 1/7/2022
+- Commited!
