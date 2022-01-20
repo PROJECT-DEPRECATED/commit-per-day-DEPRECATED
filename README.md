@@ -5,59 +5,23 @@
 - [NamNyang's Commit per Day](https://github.com/NY0510/commit-per-day)<br/>
 
 
-## 1/1/2022
-- New year first commit
-
-## 1/2/2022
-- the seconds day!
-
-## 1/3/2022
-- the third day!
-
-## 1/4/2022
-- Hello! I'm commiting this message!
-
-## 1/5/2022
-- Hello! I'm commiting this message!
-
-## 1/6/2022
-- Hola! I'm commiting message!
-
-## 1/7/2022
-- Commited!
-
-## 1/8/2022
-- Commited!
-
-## 1/9/2022
-- Commited!
-
-## 1/10/2022
-- Commited!
-
-## 1/11/2022
-- Commited!
-
-## 1/12/2022
-- Commited!
-
-## 1/13/2022
-- Commited!
-
-## 1/14/2022
-- Commited!
-
-## 1/15/2022
-- Commited!
-
-## ~~1/16/2022~~
-- PASSED
-
-## 1/17/2022
-- Commited!
-
-## 1/18/2022
-- Commited!
-
-## 1/19/2022
-- Commited!
+- 1/1/2022
+- 1/2/2022
+- 1/3/2022
+- 1/4/2022
+- 1/5/2022
+- 1/6/2022
+- 1/7/2022
+- 1/8/2022
+- 1/9/2022
+- 1/10/2022
+- 1/11/2022
+- 1/12/2022
+- 1/13/2022
+- 1/14/2022
+- 1/15/2022
+- ~~1/16/2022~~ PASSED
+- 1/17/2022
+- 1/18/2022
+- 1/19/2022
+- 1/20/2022
