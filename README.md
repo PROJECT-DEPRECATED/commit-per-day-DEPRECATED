@@ -4,6 +4,7 @@
 - [WinCho's Commit per Day](https://github.com/WintChoco/commit-per-day)<br/>
 - [NamNyang's Commit per Day](https://github.com/NY0510/commit-per-day)<br/>
 
+## DAYS
 
 - 1/1/2022
 - 1/2/2022
@@ -25,3 +26,4 @@
 - 1/18/2022
 - 1/19/2022
 - 1/20/2022
+- 1/21/2021
