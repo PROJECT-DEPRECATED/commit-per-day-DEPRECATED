@@ -32,11 +32,12 @@ func push() {
 	runCode("git", "add", ".")
 	runCode("git", "commit", "-m", "\"Update README.md\"")
 	runCode("git", "push", "origin", "master")
+	time.Sleep(time.Second * 5)
 }
 
 func main() {
 	for {
-		if time.Now().Local().Hour() == 0 {
+		if time.Now().Local().Hour() == 0 && time.Now().Local().Minute() == 0 && time.Now().Local().Second() == 0 {
 			editFile()
 			push()
 		}
