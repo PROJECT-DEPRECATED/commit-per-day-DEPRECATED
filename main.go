@@ -6,12 +6,20 @@ import (
 	"time"
 )
 
+var (
+	first = true
+)
+
 func runCode(name string, args ...string) {
 	exec.Command(name, args...).Run()
 }
 
 func editFile() {
-	str := "- "
+	var str string
+	if !first {
+		str += "\n"
+	}
+	str += "- "
 	today := time.Now().Format("1/2/2006")
 
 	str += today
@@ -32,7 +40,7 @@ func push() {
 	runCode("git", "add", ".")
 	runCode("git", "commit", "-m", "\"Update README.md\"")
 	runCode("git", "push", "origin", "master")
-	time.Sleep(time.Second * 5)
+	time.Sleep(time.Second * 10)
 }
 
 func main() {
@@ -40,6 +48,9 @@ func main() {
 		if time.Now().Local().Hour() == 0 && time.Now().Local().Minute() == 0 && time.Now().Local().Second() == 0 {
 			editFile()
 			push()
+			if first {
+				first = false
+			}
 		}
 	}
 }
