@@ -1,6 +1,7 @@
 package main
 
 import (
+	"log"
 	"os"
 	"os/exec"
 	"time"
@@ -33,7 +34,10 @@ func editFile() {
 
 	convert := []byte(converted)
 
-	os.WriteFile("README.md", convert, os.FileMode(775))
+	err = os.WriteFile("README.md", convert, os.FileMode(775))
+	if err != nil {
+		return
+	}
 }
 
 func push() {
@@ -45,12 +49,17 @@ func push() {
 
 func main() {
 	for {
-		if time.Now().Local().Hour() == 0 && time.Now().Local().Minute() == 0 && time.Now().Local().Second() == 0 {
+		if time.Now().Local().Hour() == 0 && time.Now().Local().Minute() == 0 && time.Now().Local().Second() == 59 {
 			editFile()
+			log.Println("Write complete!")
+
 			push()
+			log.Println("Push complete!")
+
 			if first {
 				first = false
 			}
+			time.Sleep(time.Second * 15)
 		}
 	}
 }
